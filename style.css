@@ -1,0 +1,119 @@
+.main-section > div {
+  background-image: url("https://sinaporfolio.my.canva.site/portfolio/images/268ab75bd93838ede5c314da110fb1d3.jpg");
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-section h1 {
+  color: #f5e8da;
+  font-family: "Nickainley", cursive;
+  font-size: 4rem;
+  text-align: center;
+}
+.main-section p {
+  margin-top: 7rem;
+  text-align: center;
+  color: #f5e8da;
+  font-size: 2.4rem;
+  font-family: "Aleo", serif;
+}
+.nemonekar {
+  background: rgb(1, 0, 10);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(1, 0, 10, 1) 0%,
+    rgba(15, 189, 224, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(1, 0, 10, 1) 0%,
+    rgba(15, 189, 224, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(1, 0, 10, 1) 0%,
+    rgba(15, 189, 224, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01000a", endColorstr="#0fbde0", GradientType=1);
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.nemonekar img {
+  height: 50vh;
+  margin-left: 1.8rem;
+}
+.nemonekar div {
+  width: 40%;
+  margin-right: 1.8rem;
+  color: #f5e8da;
+  font-family: "Aleo", serif;
+}
+.call-section {
+  background: rgb(1, 0, 10);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(1, 0, 10, 1) 0%,
+    rgba(15, 189, 224, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(1, 0, 10, 1) 0%,
+    rgba(15, 189, 224, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(1, 0, 10, 1) 0%,
+    rgba(15, 189, 224, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01000a", endColorstr="#0fbde0", GradientType=1);
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-section > img {
+  height: 100%;
+  z-index: 1;
+  flex-grow: 0;
+  flex-shrink: 1;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.call-section > div {
+  margin-right: 1.8rem;
+  color: #f5e8da;
+  font-family: "Aleo", serif;
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.6rem;
+}
+.call-section > div > div {
+  flex-basis: 16rem;
+}
+.call-section > div > div > img {
+  height: 100%;
+  position: relative;
+  left: -16%;
+}
+.call-section-btn {
+  background-color: #045782;
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 1.6rem;
+  margin: 1.2rem;
+  font-family: "Aleo", serif;
+  font-size: 1.8rem;
+  color: #f5e8da;
+}
